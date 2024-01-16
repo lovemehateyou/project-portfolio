@@ -1,0 +1,137 @@
+@media screen and (max-width: 768px) {
+    body{
+       background-color: black;
+        margin: 0px;
+    }
+    .navbar{
+       background-color: rgb(62, 57, 57);
+       margin:0px; 
+       padding:0px;
+       height: 84px;
+    }
+    .my-logo{
+        font-weight: 700;
+        margin-left: 10px;
+        display: inline-block;
+        margin-top: 45px;
+        margin-bottom: 0px;
+        color: white;
+        size: 1px;
+
+    }
+    .bar{
+        float: right;
+        background-color: transparent;
+        border: none;
+        margin-top: 45px;
+        margin-right: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    .bar:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .sec1{  
+      margin-left: 20px;
+      margin-top: 100px;
+    
+    }
+    .sec2{
+        margin-left: 20px;
+    
+    }
+    .sec3{
+        margin-left: 20px;
+    
+    }
+    .sec4{
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .sec5{
+        display: flex;
+        justify-content: flex-end;
+        align-items:bottom;
+        margin-top: 0%;
+    }
+    
+    .title{
+        margin-top: 200px;
+        display: block;
+        color: #FF6B00;
+        width: 327px;
+        height: 124px;
+        font-weight:400px;
+        font-size: 56px;
+        line-height:64px ;
+        margin-bottom: 2px;
+    
+    }
+    .sub-title{
+        margin-top: 0px;
+        margin-bottom: 5px;
+        color: white;
+        width: 327px;
+        height: 27px;
+        font-family: roboto;
+        font-weight: 700px;
+        font-size: 24px;
+        line-height: 32px;
+        
+    }
+    .discription{
+        margin-top: 0px;
+        color: white;
+        width: 327px;
+        height: 123px;
+        font: bolder;
+        font-weight: 400px;
+        size: 25px;
+        line-height: 24px;
+    }
+    .logo-1,.logo-2,.logo-3,.logo-4{
+        display: inline-block;
+    
+    }
+    .im-1{
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        padding: 8px;
+    }
+    .im-2{
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        padding: 8px;
+       
+    }
+    .im-3{
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        padding: 8px;
+    }
+    .im-4{
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        padding: 8px;
+    }
+    .button1,.button2,.button3,.button4{
+        background-color: transparent;
+        border: transparent;
+    }
+    .button1,.button2,.button3,.button4 :hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .pic1{
+        display: flex;
+        width: 406px;
+        height: 350px;
+        margin-top: 0px;
+    }
+}
