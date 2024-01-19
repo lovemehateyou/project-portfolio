@@ -170,13 +170,13 @@
         margin-bottom:30px ;
     }
     .title2{
-        width: 427px;
-        height: 83px;
+        width: fit-content;
         font-weight: 400;
         font-size:60px;
         padding-top: 100px;
-        padding-bottom: 43px;
+        margin-bottom: 100px;
         margin-left: 64px;
+        border-bottom: 2px solid black;
     }
     .pic2{
         width: 400px;
@@ -185,7 +185,7 @@
         size: 300px;
     }
     .sub-title2{
-        width: 427px;
+        width: fit-content;
         height: 36px;
         font-size: 30px;
         font-weight: 400;
@@ -205,16 +205,18 @@
         width: 314px;
         height: 40px;
         gap: 12px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         transition: 0.3s;
+        background-color: transparent;
     }
     .css{
        width: 55px;
        height: 40px;
        border: 1px;
        padding: 10px,12px,10px,12px;
-       border-color: #8993A4 ; 
-       margin-right: 6px;
+       border: 1px solid black;
+       background-color: transparent;
+       margin-right: 12px;
     }
     .css:hover{
         opacity: 0.8;
@@ -224,8 +226,9 @@
         width: 67px;
        height: 40px;
        border: 1px;
-       padding: 10px,12px,10px,12px;
-       border-color: #8993A4 ; 
+       padding: 10px,12px,10px,12px; 
+       border: 1px solid black;
+       background-color: transparent;
        margin-right: 6px;
     }
     .html:hover{
@@ -236,7 +239,8 @@
        height: 40px;
        border: 1px;
        padding: 10px,12px,10px,12px;
-       border-color: #8993A4 ;
+       border: 1px solid black;
+       background-color: transparent;
        margin-right: 6px; 
     }
     .boot:hover{
@@ -247,7 +251,8 @@
        height: 40px;
        border: 1px;
        padding: 10px,12px,10px,12px;
-       border-color: #8993A4 ; 
+       border: 1px solid black;
+       background-color: transparent;
        
     }
     .ruby:hover{
@@ -255,20 +260,17 @@
     }
     .see{
         display: inline-block;
-        width: 160px;
-        height: 48px;
-        padding: 12px;
+        width: fit-content;
+        padding: 19px;
         gap: 10px;
         background-color:#FF6B00 ;
         color: white;
+        font-size: 20px;
         border: none;
-        margin-top: 10px;
     }
     .see:hover{
         opacity: 0.8;
         cursor: pointer;
-        transition: 0.3s;
-        transform: translateY(-8px);
     }
     .repeted{
         background-repeat:no-repeat;
