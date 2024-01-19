@@ -128,10 +128,10 @@
         opacity: 0.8;
         cursor: pointer;
     }
-    .pic1{
+     .pic1{
         display: flex;
-        width: 406px;
+        width: 200px;
         height: 350px;
         margin-top: 0px;
-    }
+    } 
 }
