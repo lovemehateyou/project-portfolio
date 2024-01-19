@@ -120,11 +120,37 @@
         border-radius: 8px;
         padding: 8px;
     }
-    .button1,.button2,.button3,.button4{
+    .button1{
         background-color: transparent;
         border: transparent;
     }
-    .button1,.button2,.button3,.button4 :hover{
+    .button2{
+        background-color: transparent;
+        border: transparent;
+    }
+    .button3{
+        background-color: transparent;
+        border: transparent;
+    }
+    .button4{
+        background-color: transparent;
+        border: transparent;
+    }
+    .button1:hover
+    {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .button2:hover
+    {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .button3:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .button4 :hover{
         opacity: 0.8;
         cursor: pointer;
     }
