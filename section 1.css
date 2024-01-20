@@ -167,56 +167,57 @@
         flex-direction: column;
         background-color: white;
         padding-top: 50px;
-        margin-bottom:30px ;
+        margin-bottom:10px ;
     }
     .title2{
         width: fit-content;
         font-weight: 400;
         font-size:60px;
         padding-top: 100px;
+        padding-bottom: 60px;
         margin-bottom: 100px;
-        margin-left: 64px;
-        border-bottom: 2px solid black;
+        margin-left: 30px;
+        border-bottom: 1px solid black;
     }
     .pic2{
         width: 400px;
         height: 237px;
-        margin-left: 64px;
+        margin-left: 30px;
         size: 300px;
     }
     .sub-title2{
         width: fit-content;
         height: 36px;
-        font-size: 30px;
+        font-size: 44px;
         font-weight: 400;
         font-stretch:semi-expanded;
         margin-left: 30px;
-        margin-bottom: 0px;
+        margin-bottom: 10px;
         margin-top: 20px;
     }
     .disc{
-        height: 110px;
+        width: 390px;
+        height: 147px;
         font-size: 19px;
         font-weight: 400;
         margin-left: 30px;
-        margin-bottom: 6px;
+        margin-bottom: 0px;
     }
     .button-holder{
         width: 314px;
         height: 40px;
         gap: 12px;
         margin-bottom: 10px;
-        transition: 0.3s;
-        background-color: transparent;
+        margin-left: 30px;
+        
     }
     .css{
        width: 55px;
        height: 40px;
-       border: 1px;
        padding: 10px,12px,10px,12px;
-       border: 1px solid black;
+       border: 1px solid #8993A4;
        background-color: transparent;
-       margin-right: 12px;
+       margin-right: 6px;
     }
     .css:hover{
         opacity: 0.8;
@@ -227,7 +228,7 @@
        height: 40px;
        border: 1px;
        padding: 10px,12px,10px,12px; 
-       border: 1px solid black;
+       border: 1px solid #8993A4;
        background-color: transparent;
        margin-right: 6px;
     }
@@ -239,7 +240,7 @@
        height: 40px;
        border: 1px;
        padding: 10px,12px,10px,12px;
-       border: 1px solid black;
+       border: 1px solid #8993A4;
        background-color: transparent;
        margin-right: 6px; 
     }
@@ -251,7 +252,7 @@
        height: 40px;
        border: 1px;
        padding: 10px,12px,10px,12px;
-       border: 1px solid black;
+       border: 1px solid #8993A4;
        background-color: transparent;
        
     }
@@ -259,13 +260,16 @@
         opacity: 0.7;
     }
     .see{
-        display: inline-block;
-        width: fit-content;
-        padding: 19px;
+        width: 124px;
+        height: 48px;
+        padding: 12px;
         gap: 10px;
         background-color:#FF6B00 ;
         color: white;
-        font-size: 20px;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 700;
+        margin-left: 30px;
         border: none;
     }
     .see:hover{
@@ -275,10 +279,11 @@
     .repeted{
         background-repeat:no-repeat;
         margin-bottom: 10px;
-        height: 700px;
+        height: 515px;
         background-image: url(thumbnails/Img\ Placeholder\ \(1\).png);
-        margin-top: 40px;
+        margin-top: 32px;
         background-size: 100vw;
+        
     }
     .title3{
         color: white;
@@ -287,38 +292,47 @@
         font-weight: 400;
         font-size: 42px;
         line-height: 44px;
-        margin-top: 218px;
+        margin-top: 150px;
         margin-left: 10px;
     }
     .disc2{
-        width: 390px;
+        width: 301px;
+        height: 99px;
         color: white;
-        font-size: 21px;
+        font-size: 20px;
         font-weight: 400;
         margin-left: 10px;
+        word-spacing: 6px;
     
     }
     .button-holder2{
         width: 347px;
         height: 40px;
         gap: 12px;
-        margin-top: 45px;
+        margin-top: 8px;
+        margin-left:10px ;
     }
     .html2{
-        width: 67px;
+       width: 67px;
        height: 40px;
        border: 1px;
        padding: 10px,12px,10px,12px;
-       border-color: #8993A4 ; 
+       background-color: gray;
+       color: white;
+       font-weight: 500;
+       font-size: 15px;
        margin-right: 6px;
-       margin-left: 10px;
+       margin-left: 0px;
     }
     .boot2{
        width: 95px;
        height: 40px;
        border: 1px;
        padding: 10px,12px,10px,12px;
-       border-color: #8993A4 ;
+       background-color: gray;
+       color: white;
+       font-weight: 500;
+       font-size: 15px;
        margin-right: 6px; 
     }
     .ruby2{
@@ -326,7 +340,10 @@
        height: 40px;
        border: 1px;
        padding: 10px,12px,10px,12px;
-       border-color: #8993A4 ; 
+       background-color: gray;
+       color: white;
+       font-weight: 500;
+       font-size: 15px;
        
     }
     .see2{
@@ -336,7 +353,10 @@
         background-color:#FF6B00 ;
         color: white;
         border: none;
-        margin-top: 160px;
+        font-size: 19px;
+        font-weight: 700px;
+        text-align: center;
+        margin-top:40px;
     }
     .see2:hover{
         opacity: 0.8;
@@ -383,10 +403,14 @@
     }
     .frame{
        display: flex;
-       flex: 1;
-       height: 230px;
+       height: 300px;
+      
        justify-content: end;
-    
+    }
+    .pic-last{
+        width: 492px;
+        height: 300px;
+
     }
     .skill{
         background-color: black;
