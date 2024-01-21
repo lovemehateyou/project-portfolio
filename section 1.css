@@ -279,7 +279,7 @@
     .repeted{
         background-repeat:no-repeat;
         margin-bottom: 10px;
-        height: 515px;
+        height: 677px;
         background-image: url(thumbnails/Img\ Placeholder\ \(1\).png);
         margin-top: 32px;
         background-size: 100vw;
@@ -287,12 +287,13 @@
     }
     .title3{
         color: white;
-        width: 295px;
+        width: 395px;
         height: 81px;
         font-weight: 400;
-        font-size: 42px;
+        font-size: 50px;
+        word-spacing: 6px;
         line-height: 44px;
-        margin-top: 150px;
+        margin-top: 304px;
         margin-left: 10px;
     }
     .disc2{
@@ -403,15 +404,10 @@
     }
     .frame{
        display: flex;
-       height: 300px;
-      
+       height: 330px;
        justify-content: end;
     }
-    .pic-last{
-        width: 492px;
-        height: 300px;
-
-    }
+    
     .skill{
         background-color: black;
         margin-top: 3px;
